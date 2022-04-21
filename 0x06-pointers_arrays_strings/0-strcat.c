@@ -20,4 +20,3 @@ _putchar("%s", s2);
 _putchar("%s", ptr);
 return (0);
 }
-
