@@ -8,12 +8,7 @@
  **/
 int main(void c)
 {
-        char somebody[] = "_putchar";
         int c;
-        for (c=0; c<8; c++)
-        {
-              _putchar(somebody[c]);
-        }
-        _putchar('\n');
+        _putchar("_putchar\n ");
         return (0);
 }
