@@ -21,7 +21,7 @@ void times_table(void);
 int add(int, int);
 int _putchar(char c)
 {
-        return (write(1, &c, 1));
+        return (c);
 }
 
 void print_to_98(int n);
