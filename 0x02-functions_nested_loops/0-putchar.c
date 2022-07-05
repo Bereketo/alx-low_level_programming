@@ -1,4 +1,4 @@
-#include <unistd.h>
+#include <stdio.h>
 #include "main.h"
 /**
  * _putchar - writes the character c to stdout
@@ -7,9 +7,8 @@
  * Return: on success 1.
  * on error, -1 is returned, and errono is set appropriately.
  **/
-int main(void c)
+int main(void )
 {
-        int c;
         _putchar("_putchar\n ");
         return (0);
 }
