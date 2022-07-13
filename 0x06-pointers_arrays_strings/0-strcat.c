@@ -1,22 +1,21 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * _strcat - a function that concatenates two strings.
+ * @dest: an input string
+ * @src: an input string
+ * Return: A pointer to the resulting string
  */
-int main(void)
+char *_strcat(char *dest, char *src)
 {
-char s1[98] = "Hello ";
-char s2[] = "World!\n";
-char *ptr;
+	char *temp = dest;
 
-_putchar("%s\n", s1);
-_putchar("%s", s2);
-ptr = _strcat(s1, s2);
-_putchar("%s", s1);
-_putchar("%s", s2);
-_putchar("%s", ptr);
-return (0);
+	while (*dest)
+		dest++;
+
+	while (*src)
+		*dest++ = *src++;
+
+	*dest = '\0';
+	return (temp);
 }
